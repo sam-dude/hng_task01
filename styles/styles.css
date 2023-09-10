@@ -40,6 +40,9 @@ img{
 a{
     color: aquamarine !important;
 }
+h1{
+    font-size: 42px;
+}
 footer{
     margin-top: 2rem !important;
 }
