@@ -37,6 +37,12 @@ img{
     width: 300px;
     border-radius: 50%;
 }
+a{
+    color: aquamarine !important;
+}
+footer{
+    margin-top: 2rem !important;
+}
 @media screen and (max-width: 768px) {
     #hero{
         flex-direction: column-reverse;
