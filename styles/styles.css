@@ -36,6 +36,7 @@ img{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    object-fit: cover;
 }
 a{
     color: aquamarine !important;
