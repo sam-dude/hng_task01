@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     currentDayOfTheWeek.textContent =  currentDay;
 
     //UTC
-    var currentUTCTime = currentDate.toISOString();
+    var currentUTCTime = currentDate.getTime();
     var UTCTimeElement = document.getElementById('UTC-time')
     UTCTimeElement.textContent = currentUTCTime
 });
